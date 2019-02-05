@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\KBTU study\\2nd semester\\PP2\\Week 1\\Task1\\Task1.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\PP2\\Week 1\\Task1\\Task1.csproj",
       "projectName": "Task1",
-      "projectPath": "C:\\KBTU study\\2nd semester\\PP2\\Week 1\\Task1\\Task1.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\PP2\\Week 1\\Task1\\Task1.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\KBTU study\\2nd semester\\PP2\\Week 1\\Task1\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\PP2\\Week 1\\Task1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

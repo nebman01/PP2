@@ -13,7 +13,7 @@ namespace Task3
             }
         }
 
-        public static void Ex5(DirectoryInfo directory, int level)
+        public static void func(DirectoryInfo directory, int level)
         {
             foreach (FileInfo f in directory.GetFiles())
             {
@@ -23,13 +23,13 @@ namespace Task3
             foreach(DirectoryInfo d in directory.GetDirectories()){
                 PrintSpaces(level);
                 Console.WriteLine(d.Name);
-                Ex5(d, level+1);
+                func(d, level+1);
             }
         }
 
         static void Main(string[] args)
         {
-            Ex5(new DirectoryInfo("C:/KBTU study/2nd semester/PP2/Week 2/Task3"), 1);
+            func(new DirectoryInfo("C:/KBTU study/2nd semester/PP2/Week 2/Task3"), 0);
         }
     }
 }
